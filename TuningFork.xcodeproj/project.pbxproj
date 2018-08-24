@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73EBFAE1A969CF76D54E1166 /* Pods_TuningForkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A586B873231449AB115D30A6 /* Pods_TuningForkTests.framework */; };
+		406E00A89ECFEDCCBE68661E /* libPods-TuningForkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D65D96015FC1AE3CBE6B6280 /* libPods-TuningForkTests.a */; };
+		68F1E8DA3945C36798AC75A1 /* libPods-TuningFork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C123C7DE62BB67ED43650319 /* libPods-TuningFork.a */; };
 		DD28EB0D1BD21EC000DA041C /* TuningFork.h in Headers */ = {isa = PBXBuildFile; fileRef = DD28EB0C1BD21EC000DA041C /* TuningFork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD28EB261BD21F5300DA041C /* TuningFork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28EB251BD21F5300DA041C /* TuningFork.swift */; };
 		DD8544531DD908E500043114 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5590601DD8713700D1ADC8 /* AudioKit.framework */; };
 		DDBA27D91BEFEAAF00A41D1E /* TuningForkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBA27D81BEFEAAF00A41D1E /* TuningForkTests.swift */; };
 		DDBA27DB1BEFEAAF00A41D1E /* TuningFork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD28EB091BD21EC000DA041C /* TuningFork.framework */; };
-		F54FD7F5BC18FC4872F35062 /* Pods_TuningFork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A575D5B9EA45AA9B83AD76F /* Pods_TuningFork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +29,11 @@
 /* Begin PBXFileReference section */
 		0316438EA257A08F1C063AE6 /* Pods-TuningFork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuningFork.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuningFork/Pods-TuningFork.release.xcconfig"; sourceTree = "<group>"; };
 		25FCA1FDB4215CFA47CBB23A /* Pods-TuningForkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuningForkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuningForkTests/Pods-TuningForkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A575D5B9EA45AA9B83AD76F /* Pods_TuningFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuningFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB97078C013DBFD2620D49D /* Pods-TuningFork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuningFork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuningFork/Pods-TuningFork.debug.xcconfig"; sourceTree = "<group>"; };
-		A586B873231449AB115D30A6 /* Pods_TuningForkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuningForkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB90158038B62A130AE8DE8 /* Pods-TuningForkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuningForkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuningForkTests/Pods-TuningForkTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC562D282D159CBA9E3862E9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C123C7DE62BB67ED43650319 /* libPods-TuningFork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuningFork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65D96015FC1AE3CBE6B6280 /* libPods-TuningForkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuningForkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD28EB091BD21EC000DA041C /* TuningFork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TuningFork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD28EB0C1BD21EC000DA041C /* TuningFork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuningFork.h; sourceTree = "<group>"; };
 		DD28EB0E1BD21EC000DA041C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54FD7F5BC18FC4872F35062 /* Pods_TuningFork.framework in Frameworks */,
+				68F1E8DA3945C36798AC75A1 /* libPods-TuningFork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			files = (
 				DDBA27DB1BEFEAAF00A41D1E /* TuningFork.framework in Frameworks */,
 				DD8544531DD908E500043114 /* AudioKit.framework in Frameworks */,
-				73EBFAE1A969CF76D54E1166 /* Pods_TuningForkTests.framework in Frameworks */,
+				406E00A89ECFEDCCBE68661E /* libPods-TuningForkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +129,8 @@
 			children = (
 				DD5590601DD8713700D1ADC8 /* AudioKit.framework */,
 				BC562D282D159CBA9E3862E9 /* Pods.framework */,
-				4A575D5B9EA45AA9B83AD76F /* Pods_TuningFork.framework */,
-				A586B873231449AB115D30A6 /* Pods_TuningForkTests.framework */,
+				C123C7DE62BB67ED43650319 /* libPods-TuningFork.a */,
+				D65D96015FC1AE3CBE6B6280 /* libPods-TuningForkTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,7 +176,6 @@
 				DDBA27D21BEFEAAF00A41D1E /* Sources */,
 				DDBA27D31BEFEAAF00A41D1E /* Frameworks */,
 				DDBA27D41BEFEAAF00A41D1E /* Resources */,
-				E22117C75BAED60D61612AEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,24 +259,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E22117C75BAED60D61612AEC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TuningForkTests/Pods-TuningForkTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Chronos-Swift/Chronos.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Chronos.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuningForkTests/Pods-TuningForkTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E8ABB1E366F5F706EA816B27 /* [CP] Check Pods Manifest.lock */ = {
